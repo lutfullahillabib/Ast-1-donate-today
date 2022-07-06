@@ -1,1 +1,74 @@
 /* Md. Lutfullahil Labib */
+* {
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: border-box; */
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Top-Header */
+#top {
+    background-image: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%), url(images/banner.png);
+    /* background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.850)), url('images/banner.png'); */
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.header {
+    color: white;
+    /* border: 5px solid red; */
+    position: absolute;
+    margin: 15%;
+    text-align: center;
+}
+
+.head {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.head h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 79px;
+    /* text-align: center; */
+
+}
+
+.head p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+    /* text-align: center; */
+    padding: 0 15%;
+}
+
+.head a {
+    text-decoration: none;
+    color: white;
+    background: #FF5959;
+    border-radius: 5px;
+    display: flex;
+    /* flex-direction: row; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding: 13px 25px;
+    font-family: 'Poppins';
+    font-weight: 600;
+
+}
+
+/* Bonate Today */

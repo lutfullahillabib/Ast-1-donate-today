@@ -1,12 +1,16 @@
 /* Md. Lutfullahil Labib */
+/* Global */
 * {
     margin: 0px;
     padding: 0px;
     /* box-sizing: border-box; */
 }
 
+/* Body */
 body {
     font-family: 'Inter', sans-serif;
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Manrope', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -71,4 +75,39 @@ body {
 
 }
 
-/* Bonate Today */
+/* Donate Today */
+
+
+
+/* Footer */
+#foot {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 2%;
+
+}
+
+.p {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1%;
+}
+
+
+#foot h1 {
+    color: #FF5959;
+    font-family: 'Lobster Two', cursive;
+    font-weight: 700;
+}
+
+#foot small {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/* The End */

@@ -29,7 +29,6 @@ body {
 
 .header {
     color: white;
-    /* border: 5px solid red; */
     position: absolute;
     margin: 15%;
     text-align: center;
@@ -91,7 +90,6 @@ p {
 }
 
 .headline {
-    /* margin-top: 120px; */
     margin: 8%;
     margin-bottom: 0;
 }
@@ -159,9 +157,7 @@ h2 {
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
-    /* identical to box height, or 156% */
     text-align: center;
-    /* color: #B3B3B3; */
 
     display: block;
     margin: 0 auto;
@@ -235,7 +231,6 @@ h3 {
     font-weight: 600;
     font-size: 24px;
     line-height: 36px;
-    /* identical to box height */
 
 
     color: #121212;
@@ -244,28 +239,59 @@ h3 {
 /* Our Donate Plan-End */
 
 /* Extra */
+.extra {
+    display: flex;
+}
+
+img {
+    border-radius: 100px;
+}
+
+input[type=text],
+select,
+input[type=number] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(12, 12, 12);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    /* resize: vertical; */
+}
+
+.sub {
+    display: block;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+
+    text-decoration: none;
+    color: white;
+    background: #00d323;
+    border-radius: 5px;
+    padding: 13px 25px;
+    margin-top: 2.5%;
+    cursor: pointer;
+
+}
+
+
+.sub:hover {
+    background-color: #250ef8;
+}
+
+.cont {
+    border-radius: 20px;
+    background-color: #918d8d;
+    padding: 20px;
+}
+
+
 /* Extra-End */
 
 /* Get My updates */
-
-
-.mail {
-    background-color: #FFF4D6;
-    /* justify-content: space-around; */
-    margin: 40px 280px;
-    padding: 70px 50px;
-    text-align: center;
-}
-
-#em {
-    border: none;
-    background-color: #d1d1d1;
-    width: 275px;
-    height: 50px;
-    border-radius: 5px 0px 0px 5px;
-    font-weight: bold;
-    padding-left: 20px;
-}
 
 #button {
     border: none;
@@ -276,7 +302,25 @@ h3 {
     margin-left: -5px;
     color: white;
     font-weight: bold;
+    cursor: pointer;
 }
+
+#em {
+    border: none;
+    background-color: #d1d1d1;
+    width: 275px;
+    height: 50px;
+    border-radius: 5px 0px 0px 5px;
+    padding-left: 20px;
+}
+
+.mail {
+    background-color: #FFF4D6;
+    margin: 40px 280px;
+    padding: 70px 50px;
+    text-align: center;
+}
+
 
 /* Get My updates-End  */
 
